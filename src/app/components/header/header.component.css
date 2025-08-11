@@ -8,5 +8,28 @@ header {
     padding: 16px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     font-family: 'Segoe UI', Arial, sans-serif;
+   
+}
+nav, .navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    > span {
+        cursor: pointer;
+        &:hover{
+            color: #777;
+        }
+    }
+}
+ul{
+    list-style: none;
+    li{
+        cursor: pointer;
+        &:hover{
+            color: #777;
+        }
+    }
 }
 
