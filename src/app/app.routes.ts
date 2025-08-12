@@ -11,7 +11,7 @@ export const routes: Routes = [
   {
     path: 'todos',
     loadComponent: () => {
-      return import('./totos/totos.component').then((m) => m.TotosComponent);
+      return import('./todos/todos.component').then((m) => m.todosComponent);
     },
   },
 ];
